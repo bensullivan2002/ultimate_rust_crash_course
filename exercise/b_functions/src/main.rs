@@ -6,6 +6,7 @@ fn main() {
     let height = 7;
     let depth = 10;
     let area = area_of(width, height);
+    let volume = volume_of(width, height, depth);
     // 1. Try running this code with `cargo run` and take a look at the error.
     //
     // See if you can fix the error. It is right around here, somewhere.  If you succeed, then
@@ -24,7 +25,7 @@ fn main() {
     //
     // If you get stuck, remember that this is *very* similar to what `area_of` does.
     //
-    //println!("Volume is {}", volume(width, height, depth));
+    println!("Volume is {}", volume);
 }
 
 fn area_of(x: i32, y: i32) -> i32 {
@@ -36,4 +37,8 @@ fn area_of(x: i32, y: i32) -> i32 {
     //            `return` on the last line of a function. Change the last line to be a
     //            "tail expression" that returns a value without using `return`.
     //            Hint: `cargo clippy` will warn you about this exact thing.
+}
+
+fn volume_of(x: i32, y: i32, z: i32) -> i32 {
+    x * y * z
 }
