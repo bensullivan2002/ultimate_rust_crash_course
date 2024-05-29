@@ -11,7 +11,6 @@
 // You will need to complete 1b as well before you are able to run this program successfully.
 
 
-use std::ops::Add;
 
 fn main() {
     // Simulate shooting a bunch of arrows and gathering their coordinates on the target.
