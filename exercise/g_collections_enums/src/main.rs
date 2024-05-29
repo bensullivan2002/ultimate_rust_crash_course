@@ -10,7 +10,6 @@
 //
 // You will need to complete 1b as well before you are able to run this program successfully.
 
-use std::arch::aarch64::float64x1_t;
 
 enum Shot {
     Bullseye,
